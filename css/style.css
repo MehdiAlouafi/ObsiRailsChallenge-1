@@ -11,3 +11,77 @@ body,html {
   max-height: 100%;
   min-height: 100%;*/
 }
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7))
+  ,url('../images/background.jpg');
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+  background-position: center;
+}
+
+a {
+  text-decoration: none;
+}
+header {
+  text-align: center;
+  color: #fff;
+  max-height: 500px;
+  padding-top: 60px;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+  /*padding: 20px;*/
+  transition: box-shadow 0.3s ease,color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #fff;
+}
+
+nav ul li:first-of-type a {
+  font-weight: 700;
+  color: #fff;
+}
+nav ul li:first-of-type a:hover {
+  box-shadow: 0px 3px 0px #fff;
+}
+.kicker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  flex-direction: column;
+}
+
+.kicker {
+  padding-top: 280px;
+}
+
+.kicker h1,p {
+  margin: 0;
+  font-weight: lighter;
+}
+.kicker h1 {
+  font-size: 65px;
+
+}
+
+.kicker p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+}
