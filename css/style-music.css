@@ -1,0 +1,30 @@
+.music-wrapper > h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 27px;
+  letter-spacing: 1px;
+}
+
+.music-maincontent {
+  max-width: 1200px;
+  margin: 0 auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+.music-maincontent div {
+  float: left;
+}
+.nav-album ul {
+  list-style: none;
+  margin: 0; padding: 0;
+}
+.content-album {
+  width: 70%;
+  padding-left: 100px;
+}
+.nav-album {
+  width: 30%;
+}
+.nav-album img {
+  width: 90%;
+}
