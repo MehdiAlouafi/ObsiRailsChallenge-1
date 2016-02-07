@@ -43,3 +43,7 @@
 .align-right {
   text-align: right !important;
 }
+
+footer {
+  text-align: left;
+}
