@@ -1,0 +1,109 @@
+.contact-wrapper > h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 27px;
+  letter-spacing: 1px;
+
+
+}
+
+.contact-maincontent {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  overflow: auto;
+  margin-bottom: 50px;
+}
+.left-form {
+  float: left;
+  width: 70%;
+}
+.right-form {
+  float: right;
+  width: 24%;
+}
+
+
+form {
+  color: rgba(255, 255, 255, 0.2);
+}
+form > strong {
+  color: rgba(255, 255, 255, 0.6);
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.form-style {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+  padding: 5px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.form-style:focus {
+  outline: none;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+
+}
+
+.form-style:active {
+  outline: none;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+textarea {
+  max-width: 600px;
+}
+
+#form-submit {
+  background-color: rgba(0, 0, 0, 0.4);
+  outline: none;
+  border: none;
+  font-size: 14px;
+  padding: 10px 25px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 10px;
+}
+
+.right-form ul {
+  list-style: none;
+}
+
+.right-form ul li {
+  margin-top: 50px;
+}
+
+.right-form ul li p {
+  margin-top: 10px;
+}
+
+.strong-title {
+  color: #fff;
+  font-weight: bolder;
+}
+
+.soft-description {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.article-date {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.right-form h2 {
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+#no-margin {
+  margin-top: 30px;
+}
+
+.right-form > .form-style {
+  width: 96%;
+}
