@@ -228,12 +228,12 @@ header {
   line-height: 1.7;
 }
 
-footer .nav-links {
+.nav-links {
   text-align: center;
   padding: 30px;
 }
 
-footer .nav-links a {
+.nav-links a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
   letter-spacing: 25px;
@@ -241,11 +241,11 @@ footer .nav-links a {
   transition: color 0.3s ease-in;
 }
 
-footer .nav-links a:hover {
+.nav-links a:hover {
   color: #fff;
 }
 
-footer .nav-links .fa-github {
+.nav-links .fa-github {
   color:  #fff;
 }
 
@@ -270,4 +270,13 @@ footer {
 
 .agenda {
   margin-bottom: 70px;
+}
+
+.copyright {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+  font-weight: lighter;
+  padding: 15px;
+
 }
