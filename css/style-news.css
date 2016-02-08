@@ -1,0 +1,46 @@
+.news-wrapper > h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 27px;
+  letter-spacing: 1px;
+
+
+}
+
+.news-maincontent {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  overflow: auto;
+  margin-bottom: 50px;
+}
+
+.news-card {
+  position: relative;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.7;
+  height: 300px;
+}
+
+.news-card > h1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fff;
+  margin: 0;
+}
+
+.news-card > h2 {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  margin-top: 10px;
+}
+
+.news-card > p {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+}
