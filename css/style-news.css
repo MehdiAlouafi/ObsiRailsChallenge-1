@@ -16,12 +16,22 @@
   overflow: auto;
   margin-bottom: 50px;
 }
+.news-search-right {
+float: left;}
+
+.news-search-right .news-card:first-child {
+  margin-top: 10px;
+}
+
 
 .news-card {
   position: relative;
   color: rgba(255, 255, 255, 0.7);
   line-height: 1.7;
-  height: 300px;
+  min-height: 300px;
+  width: 600px;
+  margin-top: 35px;
+
 }
 
 .news-card > h1 {
@@ -37,6 +47,9 @@
   left: 0;
   top: 30px;
   margin-top: 10px;
+  font-size: 17px;
+  font-weight: lighter;
+  letter-spacing: 2px;
 }
 
 .news-card > p {
