@@ -13,9 +13,17 @@
   padding: 20px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   overflow: auto;
-  margin-bottom: 50px;
 }
+.photos-maincontent.photos {
+  border-top: none;
+  padding: 0;
+  margin-bottom: 50px;
 
+}
+.photos-maincontent.photos > .flexy-photo {
+  flex-direction: row-reverse;
+  overflow-y: hidden;
+}
 .flexy-photo {
   display: flex;
   height: 100%;
