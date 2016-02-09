@@ -1,0 +1,17 @@
+.photos-wrapper > h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 27px;
+  letter-spacing: 1px;
+
+}
+
+.photos-maincontent {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  overflow: auto;
+  margin-bottom: 50px;
+}
